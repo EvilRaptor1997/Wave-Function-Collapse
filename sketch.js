@@ -21,7 +21,7 @@ function setup() {
 function draw() {
     background(0);
     for (let i = 0; i < 5; i++) {
-        image(tiles[i], Wtile * i);
+        image(tiles[i], Wtile * i, 0);
     }
 
     canvas.mousePressed = () => {
